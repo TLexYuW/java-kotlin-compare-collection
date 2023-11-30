@@ -13,6 +13,23 @@ fun main(args: Array<String>) {
     println(person.name)
 
     // fun
+    println("Hello, ${args.getOrNull(0)}!")
+
+    println("Hello, ${call()}")
+
+    println("First ${foo()}, Second ${foo()}")
 
 
+    println(listOf('a', 'b', 'c').joinToString(separator = "", prefix = "(", postfix = ")"))
+    println(listOf('a', 'b', 'c').joinToString(separator = "/"))
+
+}
+
+fun call(): String {
+    return " World!";
+}
+
+fun foo(): String {
+    println("Calculating foo...")
+    return "foo";
 }

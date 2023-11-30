@@ -3,11 +3,11 @@ package class_demo;
 /**
  * @author : Lex Yu
  */
-public class Person {
+public class PersonJ {
 	private String name;
 	private int age;
 
-	public Person(String name, int age) {
+	public PersonJ(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}

@@ -1,4 +1,4 @@
-package function_demo
+package model
 
 /**
  * @author : Lex Yu
@@ -6,5 +6,6 @@ package function_demo
 enum class Color {
     BLUE,
     ORANGE,
+    YELLOW,
     RED
 }

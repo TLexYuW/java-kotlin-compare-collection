@@ -22,4 +22,24 @@ public class CommonJ {
 
 		// ...
 	}
+
+	public static void displaySeparator(char character, int size) {
+		for (int i = 0; i < size; i++) {
+			System.out.println(character);
+		}
+	}
+
+	public static void displaySeparator(char character) {
+		displaySeparator(character, 10);
+	}
+
+	public static void displaySeparator() {
+		displaySeparator('*');
+	}
+
+	public static void main(String[] args) {
+		displaySeparator('*', 10);
+	}
 }
+
+

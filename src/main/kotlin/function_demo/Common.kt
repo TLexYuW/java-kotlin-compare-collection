@@ -1,5 +1,7 @@
 package function_demo
 
+import model.Color
+
 /**
  * @author : Lex Yu
  */
@@ -78,5 +80,4 @@ class Common {
             }
         // ...
     }
-
 }
