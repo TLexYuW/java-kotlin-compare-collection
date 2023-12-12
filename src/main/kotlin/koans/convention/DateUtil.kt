@@ -8,8 +8,12 @@ import java.util.Calendar
 fun MyDate.followingDate(): MyDate {
     val c = Calendar.getInstance()
     c.set(this.year, this.month, this.dayOfMonth)
-    val millisecondsInDay = 24 * 600 * 60 * 1000L
-//    val timeImMillis =
 
-    return MyDate(1,1,1)
+    val millisecondsInDay = 24 * 60 * 60 * 1000L
+    val timeInMillis = c.timeInMillis + millisecondsInDay
+    val result = Calendar.getInstance()
+
+    result.timeInMillis = timeInMillis
+
+    return MyDate(result.get(Calendar.YEAR), result.get(Calendar.MONTH), result.get(Calendar.DATE))
 }
