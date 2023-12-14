@@ -32,7 +32,6 @@ public class Demo {
     public static String foo(JParent jParent){
         return "jParent foo";
     }
-
     public static String foo(JChild jChild){
         return "jChild foo";
     }
