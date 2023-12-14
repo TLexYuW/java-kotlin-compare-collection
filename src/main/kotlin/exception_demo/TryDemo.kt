@@ -12,7 +12,9 @@ fun main() {
     val number = try {
         Integer.parseInt(str)
     } catch (e: NumberFormatException) {
-        throw e
+//        throw e
+        null
+//        return
     }
 
     println(number)
