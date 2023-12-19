@@ -21,7 +21,7 @@ trips
 
 
 fun TaxiPark.findFaithfulPassengers2(minTrips: Int): Set<Passenger> =
-    allPassenger
+    allPassengers
         .filter { p ->
             trips.count { p in it.passengers } >= minTrips
         }

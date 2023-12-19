@@ -5,7 +5,7 @@ package assignment.taxi
  */
 data class TaxiPark(
     val allDriver: Set<Driver>,
-    val allPassenger: Set<Passenger>,
+    val allPassengers: Set<Passenger>,
     val trips: List<Trip>
 )
 
