@@ -1,4 +1,7 @@
-package assignment.taxi
+package assignment.taxi.funs
+
+import assignment.taxi.Passenger
+import assignment.taxi.TaxiPark
 
 /**
  * @author : Lex Yu
