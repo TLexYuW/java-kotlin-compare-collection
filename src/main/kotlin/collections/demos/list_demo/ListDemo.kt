@@ -1,4 +1,4 @@
-package collections.list_demo
+package collections.demos.list_demo
 
 /**
  * @author : Lex Yu
