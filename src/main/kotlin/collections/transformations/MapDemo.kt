@@ -4,15 +4,13 @@ package collections.transformations
  * @author : Lex Yu
  */
 fun main() {
-    val numbers = listOf("one", "two", "three")
-    val indexes = listOf(1, 2, 3)
-    val twoIndexes = listOf(1, 2)
+    println(g_number_list.map { "it = $it" })
+    println(g_number_list.mapNotNull { if (it.length == 3) null else it })
 
-    println(numbers.map { "it = $it" })
-    println(numbers.mapNotNull { if (it.length == 3) null else it })
-
-    println(numbers.mapIndexed { index, s -> "$index-$s" })
-    println(numbers.mapIndexedNotNull { index, s ->
+    println(g_number_list.mapIndexed { index, s -> "$index-$s" })
+    println(g_number_list.mapIndexedNotNull { index, s ->
         if (s.length == 3) null else "$index-$s"
     })
+
+    println(g_num_map)
 }

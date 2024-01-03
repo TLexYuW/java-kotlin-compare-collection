@@ -5,9 +5,8 @@ package collections.transformations
  */
 
 fun main() {
-    val numbers = listOf("one", "two", "three", "four")
     // convert list to map
-    println(numbers.associateWith { element -> element.length })
-    println(numbers.associateWith { it.length })
+    println(g_number_list.associateWith { element -> element.length })
+    println(g_number_list.associateWith { it.length })
 }
 
