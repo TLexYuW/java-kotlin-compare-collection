@@ -1,4 +1,4 @@
-package generics_demo;
+package generics_demo.err_2;
 
 /**
  * @author : Lex Yu
